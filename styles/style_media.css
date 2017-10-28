@@ -82,7 +82,12 @@
 
 @media (max-width: 640px) {
     #header {
-        margin-bottom: 2rem;
+        position: relative;
+    }
+
+    #body {
+        margin-top: 0;
+        padding: 2rem 0 0;
     }
 
     #header>section.container {
