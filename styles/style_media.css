@@ -1,0 +1,133 @@
+@media (max-width: 980px) {
+    .container {
+        max-width: 730px;
+    }
+    .page-header, article.content-body {
+        width: 58%;
+    }
+
+    nav.nav-links, #social-link {
+        width: 37%;
+    }
+    
+    #about>img {
+        float: none;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    #portfolio>.content-box {
+        margin: 2rem 0;
+        width: 100%;
+    }
+
+    #portfolio>.content-box>figure {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    #header {
+        height: auto;
+    }
+
+    #body>section.container {
+        flex-flow: column;
+    }
+
+    article.content-body {
+        width: 100%;
+    }
+
+    #about>img {
+        float: left;
+        height: 15rem;
+        width: auto;
+        margin-right: 2rem;
+        margin-bottom: 0;
+    }
+
+    #portfolio>.content-box {
+        margin: 1rem 0 2rem;
+        width: 48%;
+    }
+
+    #portfolio>.content-box>figure img {
+        width: auto;
+        max-height: 100%;
+    }
+
+    #social-link {
+        width: 100%;
+        margin-top: 3.5rem;
+    }
+
+    #social-link>div.links>ul {
+        display: inline;
+        padding: 0;
+    }
+
+    #social-link>div.links li {
+        display: inline-block;
+        margin-right: 0.75rem;
+        width: 5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    #header {
+        margin-bottom: 2rem;
+    }
+
+    #header>section.container {
+        flex-flow: column;
+        padding: 0;
+    }
+    
+    .page-header h1 {
+        display: block;
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+    }
+
+    nav.nav-links,
+    .page-header {
+        width: 100vw;
+    }
+
+    nav.nav-links>ul {
+        height: 5.5rem;
+        background: #fff;
+    }
+
+    #about>img {
+        float: none;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    #portfolio>.content-box {
+        /*margin: 2rem 0;*/
+        margin: 3.5vw 0;
+        width: 100%;
+    }
+
+    #portfolio>.content-box>figure {
+        height: 70vw;
+    }
+
+    #portfolio>.content-box>figure img {
+        max-width: 100vw;
+        min-height: 100%; 
+        margin-left: -7.5vw;
+    }   
+}
