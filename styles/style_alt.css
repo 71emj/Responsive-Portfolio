@@ -13,11 +13,11 @@ html {
 
 body {
     position: relative;
-    
     width: 100%;
     min-height: 100%;
     margin: inherit;
     padding: inherit;
+    padding-bottom: 8rem;
     background: url(../images/bgImg.jpg) center top no-repeat #fff;
     background-attachment: fixed !important;
     background-size: cover;
@@ -97,9 +97,8 @@ img {
 #body {
     position: relative;
     margin-top: 7rem;
-    padding: 3.2rem 0 0;
-    position: relative;
     margin-bottom: 3.2rem;
+    padding: 3.2rem 0 0;
 }
 
 #footer {
