@@ -6,16 +6,16 @@
 html {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 12px;
+    height: 100%;
     overflow: -moz-scrollbars-vertical;
     overflow-y: scroll;
 }
 
 body {
     position: relative;
-    display: flex;
-    flex-flow: column;
+    
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     margin: inherit;
     padding: inherit;
     background: url(../images/bgImg.jpg) center top no-repeat #fff;
@@ -99,11 +99,12 @@ img {
     margin-top: 7rem;
     padding: 3.2rem 0 0;
     position: relative;
-    flex: 1 0 auto;
     margin-bottom: 3.2rem;
 }
 
 #footer {
+    position: absolute;
+    bottom: 0;
     height: 8rem;
     width: 100%;
     border-top: .5rem solid #4aaaa5;
